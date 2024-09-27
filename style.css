@@ -1,0 +1,450 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 390vh;
+    width: 100vw;
+}
+.container{
+    height: 130vh;
+    width: 100vw;
+    background-size: cover;
+    background: linear-gradient(rgba(2, 2, 2, 0.76) , rgba(4, 4, 4, 0.801)) , url(./backgroudimage.jpg);
+}
+.Nav{
+    height: 10vh;
+    width: 100vw;
+    background-color: rgba(3, 12, 12, 0.616);
+    display: flex;
+    flex-direction: row;  
+}
+.logo{
+    height: 10vh;
+    width: 20vw;
+}
+.logo img{
+    height: 10vh;
+    width: 15vw;
+    margin-left: 130px;   
+}
+.dropdown select{
+    height: 33px;
+    width: 140px;
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 700px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding-left: 20px;
+    color: white;
+    border-radius: 2px solid white;
+}
+.dropdown option{
+    color: black;
+}
+.containt{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.Signin button{
+    height: 35px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+.Font {
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    width: 60vw;
+    height: 60vh;
+    margin-top: 150px;
+}
+.Font h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;   
+}
+.Font p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;  
+}
+.Font h3{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 450;
+    font-size: 15px;
+}
+.down{
+    height: 5vh;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    margin-left: 40px;   
+}
+.down input[placeholder]{
+    padding-left: 20px;
+}
+.Font input{
+    height: 49px;
+    width: 2000px;
+    margin-left: 100px;
+    background-color: rgba(0, 0, 0, 0.685);
+    border: 0.5px solid white;
+    border-radius: 5px;
+}
+.Font button{
+    height: 50px;
+    width: 1200px;
+    margin-left: 50px;
+    background-color: rgba(0, 0, 0, 0.685);
+    border: none;
+    border-radius: 5px;
+    background-color: red;
+    border-radius: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;  
+}
+.curve{
+    height: 30vh;
+    width: 100vw;
+   
+   border-top-left-radius: 50%;
+   border-top-right-radius: 50%;
+   border-top: 3px solid rgb(238, 12, 181);
+   background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+}
+.trend{
+    color: white;
+    height: 30px;
+    width:  20vw;
+    
+    margin-left: 180px;
+    font-size: 10px;
+    margin-top: 70px;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    font-weight: 500;
+}
+.selectt{
+    margin-left: 180px; 
+}
+.select{
+    height: 40px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.543) ;
+    color: white;
+    border-radius: 5px; 
+}
+.select1{
+    height: 40px;
+    width: 120px;
+    background-color: rgba(0, 0, 0, 0.543);
+    color: white;
+    border-radius: 5px;
+}
+.scroll{
+    height: 40vh;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.975);
+}
+.scrolldown{
+    height: 50vh;
+    width: 68vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+.Box{
+    height:35vh ;
+    width: 12vw;
+    
+    flex-shrink: 0;
+    margin: 15px;
+}
+.Box img{
+    height:35vh ;
+    width:12vw ;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.Box img:hover{
+    transform: scale(1.1);
+   
+
+}
+.reasons{
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+}
+.inner-div{
+    height: 45vh;
+    width: 20vw;
+    border-radius: 8px;
+    border: solid rgb(181, 207, 38);
+    box-shadow: 0 0 10px white;
+}
+.inner-div h1{
+    color: rgb(233, 228, 218);
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.inner-div p{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.join{
+    height: 60vh;
+    width: 70vw;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Boxx{
+    height:55vh ;
+    width: 17vw;
+    border: 2px solid greenyellow;
+    border-radius: 14px;
+    margin-right: 8px;
+   
+    
+}
+.Boxx h1{
+width: 30vw;
+
+
+}
+.head{
+    color:red;
+}
+/* .question{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid yellow;
+} */
+.container3{
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.enjoy h1{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.enjoy p{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.enjoy{
+    margin: 40px;
+    height: 35vh;
+    width: 17vw;
+    background-color: #504b5d;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    border : 2px solid white;
+   
+}
+.container4{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.friquently-asked1{
+    height: 10vh;
+    width: 70vw;
+}
+.friquently-asked1 h1{
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.friquently-asked div{
+    margin: 10px;
+    height: 12vh;
+    width: 70vw;
+    border: solid rgb(109, 99, 99);
+}
+.friquently-asked div:hover{
+    background-color: #47464a;
+    transform: 2s;
+}
+.btn h1{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.container5{
+    height: 60vh;
+    width: 100vw;
+    background-color: black;
+}
+.footer-mail{
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: black;
+}
+.footer-mail h1{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.footer-mail-1{
+    height: 15vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-mail-1 input[type="email"] {
+    width: 60%;
+    padding: 18px 15px;
+    font-size: 1rem;
+    border: 2px solid #b7b0b080;
+    border-radius: 5px 0 0 5px; /* Rounded corners on the left */
+    outline: none;
+    color: #f1e3e3;
+    background-color: #15111181;
+    transition: border-color 0.3s ease;
+}
+.footer-mail-1 button {
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #de1111;
+    border: none;
+    border-radius: 0 5px 5px 0; /* Rounded corners on the right */
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.footer-section {
+    height: auto; /* Allow for dynamic height with content */
+    width: 100vw;
+    background-color: black;
+    color: #757575; /* Netflix-style gray text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 10px 15px;
+}
+
+.footer-links a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #ffffff; /* Hover effect to white */
+}
+
+
+.language-selector {
+    margin: 20px 0;
+}
+
+.language-selector select {
+    background-color: black;
+    color: #757575;
+    border: 1px solid #757575;
+    padding: 10px;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.language-selector select option {
+    background-color: black;
+    color: #ffffff;
+}
+
+.footer-copyright {
+    color: #757575;
+    font-size: 0.75rem;
+    margin-top: 20px;
+    text-align: center;
+}
